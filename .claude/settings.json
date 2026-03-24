@@ -6,7 +6,8 @@
       "Bash(git -C:*)",
       "Read(//Users/apple/.claude/**)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Read(//Users/apple/Desktop/code/adk-vibe/**)"
     ],
     "additionalDirectories": [
       "/Users/apple/.claude/skills"
