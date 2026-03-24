@@ -1,0 +1,17 @@
+{
+  "name": "adk-framework",
+  "version": "0.1.0",
+  "description": "Google ADK (Agent Development Kit) framework plugin for vibe coding AI agents — covers agent architecture, tools, callbacks, sessions, deployment, and evaluation",
+  "author": {
+    "name": "Adward"
+  },
+  "keywords": ["adk", "google", "ai-agents", "multi-agent", "vibe-coding", "gemini"],
+  "agents": [
+    "./skills/adk-agent-architect/SKILL.md",
+    "./skills/adk-session-memory/SKILL.md",
+    "./skills/adk-tool-builder/SKILL.md",
+    "./skills/adk-callback-guardrails/SKILL.md",
+    "./skills/adk-evaluation/SKILL.md",
+    "./skills/adk-deploy/SKILL.md"
+  ]
+}

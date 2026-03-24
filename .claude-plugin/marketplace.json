@@ -17,6 +17,14 @@
       "category": "developer-tools",
       "keywords": ["scaffold", "plugin", "generator", "creator"],
       "license": "MIT"
+    },
+    {
+      "name": "adk-framework",
+      "source": "./plugins/adk-framework",
+      "description": "Google ADK framework skills — agent architecture, tools, callbacks, sessions, deployment, evaluation",
+      "version": "0.1.0",
+      "category": "developer-tools",
+      "keywords": ["adk", "google", "ai-agents", "multi-agent", "gemini"]
     }
   ]
 }
