@@ -1,4 +1,4 @@
-# ECB Claude Marketplace
+# claude-market
 
 Custom plugin marketplace for Claude Code.
 
@@ -12,16 +12,12 @@ Custom plugin marketplace for Claude Code.
 
 | Plugin | Description |
 |---|---|
-| `code-review` | `/review`, `/explain`, `/security` commands |
-| `git-workflow` | `/commit`, `/pr`, `/changelog` + git-agent + post-edit hooks |
-| `mcp-tools` | MCP servers: filesystem, web fetch, SQLite |
+| `plugin-creator` | Scaffolds new plugins interactively — commands, agents, hooks, MCP servers |
 
 ## Enable a plugin
 
 ```bash
-/plugin install code-review@ecb-claude-market
-/plugin install git-workflow@ecb-claude-market
-/plugin install mcp-tools@ecb-claude-market
+/plugin install plugin-creator@claude-market
 ```
 
 ## Add to team settings
@@ -31,7 +27,7 @@ In `.claude/settings.json`:
 ```json
 {
   "extraKnownMarketplaces": {
-    "ecb-claude-market": {
+    "claude-market": {
       "source": {
         "source": "github",
         "repo": "<your-github-username>/ecb-claude-market"
@@ -39,9 +35,7 @@ In `.claude/settings.json`:
     }
   },
   "enabledPlugins": {
-    "code-review@ecb-claude-market": true,
-    "git-workflow@ecb-claude-market": true,
-    "mcp-tools@ecb-claude-market": true
+    "plugin-creator@claude-market": true
   }
 }
 ```

@@ -1,41 +1,14 @@
 {
-  "name": "ecb-claude-market",
+  "name": "claude-market",
   "owner": {
     "name": "ECB Team"
   },
   "metadata": {
-    "description": "ECB custom plugin marketplace for Claude Code — commands, agents, hooks, and MCP servers",
+    "description": "ECB custom plugin marketplace for Claude Code",
     "version": "1.0.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
-    {
-      "name": "code-review",
-      "source": "./plugins/code-review",
-      "description": "AI-powered code review commands",
-      "version": "1.0.0",
-      "category": "productivity",
-      "keywords": ["review", "code", "quality"],
-      "license": "MIT"
-    },
-    {
-      "name": "git-workflow",
-      "source": "./plugins/git-workflow",
-      "description": "Git workflow automation — smart commit, PR helpers, and auto-lint hooks",
-      "version": "1.0.0",
-      "category": "developer-tools",
-      "keywords": ["git", "commit", "pr", "workflow"],
-      "license": "MIT"
-    },
-    {
-      "name": "mcp-tools",
-      "source": "./plugins/mcp-tools",
-      "description": "MCP servers: filesystem, web fetch, and SQLite",
-      "version": "1.0.0",
-      "category": "tools",
-      "keywords": ["mcp", "filesystem", "database", "web"],
-      "license": "MIT"
-    },
     {
       "name": "plugin-creator",
       "source": "./plugins/plugin-creator",

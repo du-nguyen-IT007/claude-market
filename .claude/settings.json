@@ -1,7 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(git -C /Users/apple/Desktop/code/ecb-claude-market add plugins/plugin-creator .claude-plugin/marketplace.json)",
+      "Bash(git -C:*)",
+      "Read(//Users/apple/.claude/**)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "additionalDirectories": [
+      "/Users/apple/.claude/skills"
     ]
   }
 }
