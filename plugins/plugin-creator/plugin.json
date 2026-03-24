@@ -2,13 +2,8 @@
   "name": "plugin-creator",
   "version": "1.0.0",
   "description": "Scaffolds new Claude Code plugins interactively — commands, agents, hooks, and MCP servers",
-  "author": { "name": "ECB Team" },
+  "author": { "name": "Adward" },
   "license": "MIT",
-  "commands": [
-    "./commands/new-plugin.md",
-    "./commands/new-command.md"
-  ],
-  "agents": [
-    "./agents/plugin-creator.md"
-  ]
+  "commands": ["./commands/new-plugin.md", "./commands/new-command.md"],
+  "agents": ["./agents/plugin-creator.md"]
 }

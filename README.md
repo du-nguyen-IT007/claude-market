@@ -5,13 +5,13 @@ Custom plugin marketplace for Claude Code.
 ## Install
 
 ```bash
-/plugin marketplace add <your-github-username>/ecb-claude-market
+/plugin marketplace add <your-github-username>/claude-market
 ```
 
 ## Plugins
 
-| Plugin | Description |
-|---|---|
+| Plugin           | Description                                                                |
+| ---------------- | -------------------------------------------------------------------------- |
 | `plugin-creator` | Scaffolds new plugins interactively — commands, agents, hooks, MCP servers |
 
 ## Enable a plugin

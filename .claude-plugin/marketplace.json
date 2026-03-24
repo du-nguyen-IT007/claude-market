@@ -1,10 +1,10 @@
 {
   "name": "claude-market",
   "owner": {
-    "name": "ECB Team"
+    "name": "Adward"
   },
   "metadata": {
-    "description": "ECB custom plugin marketplace for Claude Code",
+    "description": "Custom plugin marketplace for Claude Code",
     "version": "1.0.0",
     "pluginRoot": "./plugins"
   },
