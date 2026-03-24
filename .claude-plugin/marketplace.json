@@ -35,6 +35,15 @@
       "category": "tools",
       "keywords": ["mcp", "filesystem", "database", "web"],
       "license": "MIT"
+    },
+    {
+      "name": "plugin-creator",
+      "source": "./plugins/plugin-creator",
+      "description": "Scaffolds new Claude Code plugins interactively — commands, agents, hooks, and MCP servers",
+      "version": "1.0.0",
+      "category": "developer-tools",
+      "keywords": ["scaffold", "plugin", "generator", "creator"],
+      "license": "MIT"
     }
   ]
 }
