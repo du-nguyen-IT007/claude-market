@@ -5,13 +5,5 @@
   "author": {
     "name": "Adward"
   },
-  "keywords": ["adk", "google", "ai-agents", "multi-agent", "vibe-coding", "gemini"],
-  "agents": [
-    "./skills/adk-agent-architect/SKILL.md",
-    "./skills/adk-session-memory/SKILL.md",
-    "./skills/adk-tool-builder/SKILL.md",
-    "./skills/adk-callback-guardrails/SKILL.md",
-    "./skills/adk-evaluation/SKILL.md",
-    "./skills/adk-deploy/SKILL.md"
-  ]
+  "keywords": ["adk", "google", "ai-agents", "multi-agent", "vibe-coding", "gemini"]
 }
