@@ -1,0 +1,9 @@
+{
+  "name": "agentscope-framework",
+  "version": "0.1.0",
+  "description": "AgentScope (Python) framework plugin for vibe coding AI agents — covers agent architecture, tools, MCP integration, memory, pipeline orchestration, and deployment",
+  "author": {
+    "name": "Adward"
+  },
+  "keywords": ["agentscope", "python", "ai-agents", "multi-agent", "react-agent", "mcp", "vibe-coding"]
+}

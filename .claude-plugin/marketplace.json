@@ -25,6 +25,14 @@
       "version": "0.1.0",
       "category": "developer-tools",
       "keywords": ["adk", "google", "ai-agents", "multi-agent", "gemini"]
+    },
+    {
+      "name": "agentscope-framework",
+      "source": "./plugins/agentscope-framework",
+      "description": "AgentScope (Python) framework skills — ReActAgent, tools, MCP integration, memory, pipeline orchestration, deployment",
+      "version": "0.1.0",
+      "category": "developer-tools",
+      "keywords": ["agentscope", "python", "ai-agents", "react-agent", "mcp", "multi-agent", "vibe-coding"]
     }
   ]
 }
